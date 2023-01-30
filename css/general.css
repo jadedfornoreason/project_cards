@@ -3,10 +3,17 @@ body{
     background-color: rgb(32, 36, 49);
 }
 
+/* изменение ссылок */
 a{
     text-decoration: none;
     color: rgb(252, 129, 74);
 }
+
+/* подсвечивание текста при наведении*/
+a:hover{
+    color: white;
+}
+
 
 ul{
     margin: 0;
@@ -23,10 +30,11 @@ ul{
     margin-left: -1;
     margin-right: -1;
 }
+
 .container{
     max-width: 800px;
     max-height: 5em;  
-    background-color: rgb(248, 58, 65);
+    /* background-color: rgb(248, 58, 65); */
     margin-left: 125px;
 }
 
@@ -46,7 +54,6 @@ ul{
 }
 
 .header-items-buttons{
-    font-size: 1.5em;
+    font-size: 4ex;
     line-height: 30px;
 }
-
