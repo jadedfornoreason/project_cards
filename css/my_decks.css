@@ -25,13 +25,13 @@
 /* Change background color of buttons on hover */
 .tab button:hover {
     background-color: rgb(252, 129, 74);
-    color: whitesmoke;
+    color: rgb(218, 215, 215);
 }
 
 /* Create an active/current "tab button" class */
 .tab button.active {
     background-color: rgb(252, 129, 74);
-    color: whitesmoke;
+    color: rgb(218, 215, 215);
 }
 
 /* Style the tab content */
@@ -43,4 +43,5 @@
     width: 80vh;
     border-inline: 3px;
     height: 300px;
+    color:rgb(218, 215, 215);
 }
