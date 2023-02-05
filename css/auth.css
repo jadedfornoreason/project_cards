@@ -1,0 +1,19 @@
+
+#table{
+    position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      /* центрирование */
+
+      margin: auto;
+      /* центрирование */
+
+      height: 240px;
+      width: 600px;
+      padding: 5px 5px 5px 55px;
+
+      color: whitesmoke;
+      font-size: 190%;
+}
